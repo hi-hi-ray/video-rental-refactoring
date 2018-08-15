@@ -1,2 +1,6 @@
-# video-rental-refactoring
+# Video Rental Refactoring
 Refactoring Test
+
+## Primeiro Passo
+
+#### Create Test

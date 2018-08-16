@@ -1,4 +1,4 @@
-package com.refactoring.firstexample;
+package com.refactoring;
 
 public class Movie {
     public static final int CHILDRENS = 2;

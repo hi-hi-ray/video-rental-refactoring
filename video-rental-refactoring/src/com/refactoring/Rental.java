@@ -1,4 +1,4 @@
-package com.refactoring.firstexample;
+package com.refactoring;
 
 public class Rental {
     private Movie _movie;

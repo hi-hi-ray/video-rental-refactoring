@@ -1,21 +1,25 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.refactoring;
 
-/**
- *
- * @author raysa
- */
 public class firstexample {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Customer customer = new Customer("Sabrina");
+        Customer customer_kid = new Customer("Rachel");
+        Customer customer_new = new Customer("Joey");
+
+        Movie kidMovie = new Movie("Moana", Movie.CHILDRENS);
+        Movie actionMovie = new Movie("CockPunch", Movie.REGULAR);
+        Movie newMovie = new Movie("Bridget Jones's Diary", Movie.NEW_RELEASE);
+        
+        customer_new.addRental(new Rental(newMovie, 4));
+        customer_kid.addRental(new Rental(kidMovie, 3));
+        customer.addRental(new Rental(actionMovie, 2));
+        
+        System.out.println(customer.statement());
+        System.out.println("~-*-*-*-*-~");
+        System.out.println(customer_kid.statement());
+        System.out.println("~-*-*-*-*-~");
+        System.out.println(customer_new.statement());
+        
     }
     
 }

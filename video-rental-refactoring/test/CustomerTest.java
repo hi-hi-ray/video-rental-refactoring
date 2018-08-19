@@ -4,6 +4,9 @@
  * and open the template in the editor.
  */
 
+import com.refactoring.Customer;
+import com.refactoring.Movie;
+import com.refactoring.Rental;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -16,29 +19,16 @@ import static org.junit.Assert.*;
  * @author raysa
  */
 public class CustomerTest {
-    
-    public CustomerTest() {
-    }
-    
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
-    
-    @Before
-    public void setUp() {
-    }
-    
-    @After
-    public void tearDown() {
-    }
 
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
-    // @Test
-    // public void hello() {}
+    Customer customerTest = new Customer("Test");
+
+    Movie movieTestNEW = new Movie("Bridget Jones's Diary", Movie.NEW_RELEASE);
+    Movie movieTestREGULAR  = new Movie("Bridget Jones's Diary 2", Movie.REGULAR);
+    Movie movieTestCHILDRENS  = new Movie("Bridget Jones's Diary 3", Movie.CHILDRENS);
+
+     @Test
+     public void statement() {
+         customerTest.addRental(new Rental(movieTestNEW, 4));
+         assertEquals("Rental Record for Test\n	Bridget Jones's Diary	12.0\nAmount owed is 12.0\nYou earned 2 frequent renter points", customerTest.statement()); 
+     }
 }

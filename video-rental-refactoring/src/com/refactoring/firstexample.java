@@ -19,7 +19,6 @@ public class firstexample {
         System.out.println(customer_kid.statement());
         System.out.println("~-*-*-*-*-~");
         System.out.println(customer_new.statement());
-        
     }
     
 }

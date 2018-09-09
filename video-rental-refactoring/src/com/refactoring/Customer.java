@@ -19,13 +19,17 @@ public class Customer {
     public String getName() {
         return _name;
     }
+    
+    private double amountFor(Rental aRental){
+        return aRental.getCharge();
+    }
 
     public String statement() {
         double totalAmount = 0;
         int frequentRenterPoints = 0;
         Enumeration rentals = _rentals.elements();
         String result = "Rental Record for " + getName() + "\n";
-
+        
         while (rentals.hasMoreElements()) {
             double thisAmount = 0;
             Rental each = (Rental) rentals.nextElement();
@@ -53,25 +57,4 @@ public class Customer {
         return result;
     }
 
-    public Double amountFor(Rental aRental) {
-        double amountResult = 0;
-        switch (aRental.getMovie().getPriceCode()) {
-            case Movie.REGULAR:
-                amountResult += 2;
-                if (aRental.getDaysRented() > 2) {
-                    amountResult += (aRental.getDaysRented() - 2) * 1.5;
-                }
-                break;
-            case Movie.NEW_RELEASE:
-                amountResult += aRental.getDaysRented() * 3;
-                break;
-            case Movie.CHILDRENS:
-                amountResult += 1.5;
-                if (aRental.getDaysRented() > 3) {
-                    amountResult += (aRental.getDaysRented() - 3) * 1.5;
-                }
-                break;
-        }
-        return amountResult;
-    }
 }

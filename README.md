@@ -31,3 +31,11 @@ Métodos que são muito longo possui um *bad smell* que torna difícil a manunte
 No livro é apontado que o método que acabamos de criar *(amountFor)*, ele não faz muito sentido estar na classe *Customer* e sim na classe *Rental*, pois ele está utilizando dados da classe citada.
 
 ##### Na nossa segunda refatoração, começamos o processo de moção de método removendo o *Bad Smell* conhecido como *Cohesion*. [Commit e Arquivos Relacionados](https://github.com/hi-hi-ray/video-rental-refactoring/commit/6848de65b39c1253cc27849a7c52e78ce5c48528)
+
+
+#### Replace a Temp with a Query - Removendo "Redudance, Bad Smell"
+
+No livro é apontado que após a mudança que foi feita, a variável *amountFor* se tornou redundante.
+
+##### Na nossa terceira refatoração, começamos o processo de subistituição de método removendo o *Bad Smell* conhecido como *Redundance*. [Commit e Arquivo Relacionado]()
+~                          

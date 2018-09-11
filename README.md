@@ -37,5 +37,5 @@ No livro é apontado que o método que acabamos de criar *(amountFor)*, ele não
 
 No livro é apontado que após a mudança que foi feita, a variável *amountFor* se tornou redundante.
 
-##### Na nossa terceira refatoração, começamos o processo de subistituição de método removendo o *Bad Smell* conhecido como *Redundance*. [Commit e Arquivo Relacionado]()
-~                          
+##### Na nossa terceira refatoração, começamos o processo de substituição de método removendo o *Bad Smell* conhecido como *Redundance*. [Commit e Arquivo Relacionado](https://github.com/hi-hi-ray/video-rental-refactoring/blob/ff7974e3fbefc98ade2592a2f2d2522912735842/video-rental-refactoring/src/com/refactoring/Customer.java)
+                          

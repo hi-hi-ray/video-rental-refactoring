@@ -10,8 +10,6 @@ public class CustomerTest {
     Customer customerTest = new Customer("Test");
 
     Movie movieTestNEW = new Movie("Bridget Jones's Diary", Movie.NEW_RELEASE);
-    Movie movieTestREGULAR  = new Movie("Bridget Jones's Diary 2", Movie.REGULAR);
-    Movie movieTestCHILDRENS  = new Movie("Bridget Jones's Diary 3", Movie.CHILDRENS);
 
      @Test
      public void statementTest() {

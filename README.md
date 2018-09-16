@@ -42,9 +42,10 @@ Métodos que são fazem a requisição de atributos de uma outra classe possui u
 
 #### Replace a Temp with a Query
 
-No livro é apontado que após a nossa última mudança que foi feita, a variável *amountFor* se tornou redundante dentro do método *statement* da classe *Customer*
+No livro é apontado que após a nossa última mudança que foi feita, tornou a variável *thisAmount* redundante dentro do método *statement*, e que podemos remover essa variável.
+ 
 
-##### Na nossa terceira refatoração, começamos o processo de substituição. 
+##### Na nossa terceira refatoração, começamos o processo de substituição. Onde era utilizado a variável *thisAmount* foi substituido pelo método *getCharge* da classe *Rental*.
 ###### [Commit e Arquivo Relacionado](https://github.com/hi-hi-ray/video-rental-refactoring/blob/ff7974e3fbefc98ade2592a2f2d2522912735842/video-rental-refactoring/src/com/refactoring/Customer.java)
 
 

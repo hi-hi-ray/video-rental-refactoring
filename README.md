@@ -130,7 +130,7 @@ No livro é comentado que agora o proximo passo é criar uma herança na classe 
 
 No livro é comentado que agora o proximo passo é mover o *getCharge* para a classe *Price*, pois ela faria mais sentido esse método estar na classe citada.
 
-##### Na nossa décima refatoração, vamos mover para a classe *Price* o método *getCharge*.
+##### Na nossa décima refatoração, vamos mover para a classe *Price* o método *getCharge*. E mudamos o conteúdo do método *getCharge* em *Movie*
 
 ###### [Commit e Arquivos Relacionados]()
 

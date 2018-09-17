@@ -121,7 +121,7 @@ Seguindo a mesma linha de raciocínio acima iremos fazer o mesmo procedimento pa
 
 No livro é comentado que agora o proximo passo é criar uma herança na classe *Movie*, porém devemos criar uma nova classe nesse processo chamada de *Price*, e pouco a pouco iremos aplicar as refatorações do título.
 
-##### Aqui atualizamos o código inserindo o html e mudando o nome do método *statement*. E também atualizamos o teste e classe main.
+##### Na nossa nona refatoração, vamos criar uma classe *Price* e criar filhos para ela. Para isso vamos utilizar *Self Encapsulate Field* para fazer essa fatoração
 
-###### [Commit e Arquivo Relacionado](https://github.com/hi-hi-ray/video-rental-refactoring/blob/42b95d5ca626e24afd7e28515c6f0b9f1c7e9dc4)
+###### [Commit e Arquivos Relacionados](https://github.com/hi-hi-ray/video-rental-refactoring/blob/42b95d5ca626e24afd7e28515c6f0b9f1c7e9dc4)
 

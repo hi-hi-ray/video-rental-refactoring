@@ -85,12 +85,27 @@ Agora como foi apontado no livro podemos remover a variável o qual está sendo 
 ###### [Commit e Arquivo Relacionado](https://github.com/hi-hi-ray/video-rental-refactoring/blob/80e20901155ededfa53dafe12b45b15811bbbc0c/video-rental-refactoring/src/com/refactoring/Customer.java)
 
 
-#### Put HTML function
+#### Put a HTML in the Statement function
 
-No livro é falado que podemos por um html com as respostas
+No livro é falado que podemos por um html com as respostas do nosso sistema.
 
+##### Aqui atualizamos o código inserindo o html e mudando o nome do método *statement*. E também atualizamos o teste e classe main.
 
-##### Na nossa sexta refatoração, faremos outra substituição. Onde era a variável *frequentRenterPoints* foi substituido pelo método *getFrequentRenterPoints*.
+###### [Commit e Arquivo Relacionado](https://github.com/hi-hi-ray/video-rental-refactoring/blob/42b95d5ca626e24afd7e28515c6f0b9f1c7e9dc4)
 
-###### [Commit e Arquivo Relacionado](https://github.com/hi-hi-ray/video-rental-refactoring/blob/80e20901155ededfa53dafe12b45b15811bbbc0c/video-rental-refactoring/src/com/refactoring/Customer.java)
                           
+#### Replace Conditional with Polymorphism
+
+No livro é apontado a necessidade de desmantelar o método *getCharge*, pois ele possui um *Switch Statement* o qual utiliza um outro objeto (*Movie*). 
+
+*Switch Statements* é um *bad smell* que pode trazer código duplicado e demonstra uma falta de orientação objetiva e uma oportunidade perdida de confiar na elegância do polimorfismo.
+
+
+##### Na nossa sétima refatoração, começamos o processo de mover o método de *getCharge* para o *Movie*. E mudamos o conteúdo do método *getCharge* em *Rental* 
+ 
+##### Nessa parte estamos removendo o *Bad Smell* conhecido como *Switch Statements* referênciado nas páginas do livro base 82. 
+
+###### [Commit e Arquivo Relacionado]()
+
+
+

@@ -137,9 +137,9 @@ No livro é comentado que agora o proximo passo é mover o *getCharge* para a cl
 
 #### Replace Conditional with Polymorphism 
 
-No livro é comentado que agora o proximo passo é desmantelar o *getCharge* e distribuir cada case nos filhos.
+No livro é comentado que agora o proximo passo é desmantelar o *getCharge* e *getFrequentRenterPoints* e distribuir cada case nos filhos.
 
-##### Na nossa décima primeira refatoração, vamos destribuir o *getCharge* da classe *Price* e nos seus filhos. 
+##### Na nossa décima primeira refatoração, vamos destribuir o *getCharge* e *getFrequentRenterPoints* nos seus filhos de *Price*.
 
 ###### [Commit e Arquivos Relacionados]()
 

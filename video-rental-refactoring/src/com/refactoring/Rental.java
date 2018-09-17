@@ -1,6 +1,7 @@
 package com.refactoring;
 
 public class Rental {
+
     private Movie _movie;
     private int _daysRented;
 
@@ -16,7 +17,7 @@ public class Rental {
     public Movie getMovie() {
         return _movie;
     }
-    
+
     public Double getCharge() {
         double amountResult = 0;
         switch (getMovie().getPriceCode()) {
@@ -38,4 +39,13 @@ public class Rental {
         }
         return amountResult;
     }
+
+    public int getFrequentRenterPoints() {
+        if ((getMovie().getPriceCode() == Movie.NEW_RELEASE) && getDaysRented() > 1) {
+            return 2;
+        } else {
+            return 1;
+        }
+    }
+
 }

@@ -117,11 +117,21 @@ Seguindo a mesma linha de raciocínio acima iremos fazer o mesmo procedimento pa
 ###### [Commit e Arquivos Relacionados](https://github.com/hi-hi-ray/video-rental-refactoring/commit/888a8ed9dee9a07507e0be98b7463ce55695eba1)
 
 
-#### Replace Type Code with Statel Strategy + Self Encapsulate Field + Replace Conditional with Polymorphism + Moving Method
+#### Self Encapsulate Field 
 
-No livro é comentado que agora o proximo passo é criar uma herança na classe *Movie*, porém devemos criar uma nova classe nesse processo chamada de *Price*, e pouco a pouco iremos aplicar as refatorações do título.
+No livro é comentado que agora o proximo passo é criar uma herança na classe *Movie*, porém devemos criar uma nova classe nesse processo chamada de *Price*.
 
-##### Na nossa nona refatoração, vamos criar uma classe *Price* e criar filhos para ela. Para isso vamos utilizar *Self Encapsulate Field* para fazer essa fatoração
+##### Na nossa nona refatoração, vamos criar uma classe *Price* e criar filhos para ela. 
 
-###### [Commit e Arquivos Relacionados](https://github.com/hi-hi-ray/video-rental-refactoring/blob/42b95d5ca626e24afd7e28515c6f0b9f1c7e9dc4)
+###### [Commit e Arquivos Relacionados](https://github.com/hi-hi-ray/video-rental-refactoring/commit/8068ea05420f332de7cf150df76c4b34bbe80d51)
+
+
+#### Moving Method
+
+No livro é comentado que agora o proximo passo é mover o *getCharge* para a classe *Price*, pois ela faria mais sentido esse método estar na classe citada.
+
+##### Na nossa décima refatoração, vamos mover para a classe *Price* o método *getCharge*.
+
+###### [Commit e Arquivos Relacionados]()
+
 

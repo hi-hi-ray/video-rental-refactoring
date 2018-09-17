@@ -107,5 +107,21 @@ No livro é apontado a necessidade de desmantelar o método *getCharge*, pois el
 
 ###### [Commit e Arquivos Relacionados](https://github.com/hi-hi-ray/video-rental-refactoring/commit/5757e0345c190ff63c76e7ef7684e8d5ebb48c4c)
 
+------------
 
+Seguindo a mesma linha de raciocínio acima iremos fazer o mesmo procedimento para *getFrequentRenterPoints*.
+
+
+##### Na nossa oitava refatoração, começamos o processo de mover o método de *getFrequentRenterPoints* para o *Movie*. E mudamos o conteúdo do método *getFrequentRenterPoints* em *Rental* 
+
+###### [Commit e Arquivos Relacionados](https://github.com/hi-hi-ray/video-rental-refactoring/commit/888a8ed9dee9a07507e0be98b7463ce55695eba1)
+
+
+#### Replace Type Code with Statel Strategy + Self Encapsulate Field + Replace Conditional with Polymorphism + Moving Method
+
+No livro é comentado que agora o proximo passo é criar uma herança na classe *Movie*, porém devemos criar uma nova classe nesse processo chamada de *Price*, e pouco a pouco iremos aplicar as refatorações do título.
+
+##### Aqui atualizamos o código inserindo o html e mudando o nome do método *statement*. E também atualizamos o teste e classe main.
+
+###### [Commit e Arquivo Relacionado](https://github.com/hi-hi-ray/video-rental-refactoring/blob/42b95d5ca626e24afd7e28515c6f0b9f1c7e9dc4)
 

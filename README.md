@@ -139,7 +139,7 @@ No livro é comentado que agora o proximo passo é mover o *getCharge* para a cl
 
 No livro é comentado que agora o proximo passo é desmantelar o *getCharge* e *getFrequentRenterPoints* e distribuir cada case nos filhos.
 
-##### Na nossa décima primeira refatoração, vamos destribuir o *getCharge* e *getFrequentRenterPoints* nos seus filhos de *Price*.
+##### Na nossa décima primeira refatoração, vamos destribuir o *getCharge* e *getFrequentRenterPoints* nos filhos de *Price*.
 
 ###### [Commit e Arquivos Relacionados](https://github.com/hi-hi-ray/video-rental-refactoring/commit/0c1c583f2d2f5cd097ce22596ed3d75a1144fc36)
 

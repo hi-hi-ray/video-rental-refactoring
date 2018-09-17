@@ -57,7 +57,7 @@ No livro é apontado que após a nossa última mudança que foi feita, tornou a 
 
 ------------
 
-No livro é apontado que ainda podemos remover duas variáveis o qual estão utilizando para pegar o total de aluguéis (*rentals*) se relacionando com o cliente (*customer*).
+No livro é apontado que ainda podemos remover a variável o qual está sendo utilizada para pegar o total de aluguéis (*rentals*) se relacionando com o cliente (*customer*).
 
 
 ##### Na nossa quarta refatoração, faremos outra substituição. Onde era a variável *totalAmount* foi substituido pelo método *getTotalCharge*.
@@ -72,16 +72,25 @@ No livro é comentado que devemos colocar o *frequentRenterPoints* e a forma que
 
 ##### Na nossa quinta refatoração, começamos o processo de extração do *frequentRenterPoints* e inserimento na classe *Rental*. Após essa mudança ser feita é perceptível que na lógica é necessário adicionar 2 caso ele responda a condição caso (*(getMovie().getPriceCode() == Movie.NEW_RELEASE) && getDaysRented() > 1*).
 
-###### [Commit e Arquivo Relacionado](https://github.com/hi-hi-ray/video-rental-refactoring/commit/c8d9380e1eb35f2b45533209ca1c9de24c695d9a#diff-04c6e90faac2675aa89e2176d2eec7d8)
+###### [Commit e Arquivos Relacionados](https://github.com/hi-hi-ray/video-rental-refactoring/commit/c8d9380e1eb35f2b45533209ca1c9de24c695d9a#diff-04c6e90faac2675aa89e2176d2eec7d8)
 
 
 #### Replace a Temp with a Query
 
-No livro é apontado que ainda podemos remover duas variáveis o qual estão utilizando para pegar o total de aluguéis (*rentals*) se relacionando com o cliente (*customer*).
+Agora como foi apontado no livro podemos remover a variável o qual está sendo utilizada para pegar o total de pontos (*frequentRenterPoints*).
 
 
-##### Na nossa quarta refatoração, faremos outra substituição. Onde era a variável *totalAmount* foi substituido pelo método *getTotalCharge*.
+##### Na nossa sexta refatoração, faremos outra substituição. Onde era a variável *frequentRenterPoints* foi substituido pelo método *getFrequentRenterPoints*.
 
-###### [Commit e Arquivo Relacionado](https://github.com/hi-hi-ray/video-rental-refactoring/blob/62d0d8effaf1252a047bd458e0d7b77da86d3436/video-rental-refactoring/src/com/refactoring/Customer.java)
+###### [Commit e Arquivo Relacionado](https://github.com/hi-hi-ray/video-rental-refactoring/blob/80e20901155ededfa53dafe12b45b15811bbbc0c/video-rental-refactoring/src/com/refactoring/Customer.java)
 
+
+#### Put HTML function
+
+No livro é falado que podemos por um html com as respostas
+
+
+##### Na nossa sexta refatoração, faremos outra substituição. Onde era a variável *frequentRenterPoints* foi substituido pelo método *getFrequentRenterPoints*.
+
+###### [Commit e Arquivo Relacionado](https://github.com/hi-hi-ray/video-rental-refactoring/blob/80e20901155ededfa53dafe12b45b15811bbbc0c/video-rental-refactoring/src/com/refactoring/Customer.java)
                           

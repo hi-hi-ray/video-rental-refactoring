@@ -105,7 +105,7 @@ No livro é apontado a necessidade de desmantelar o método *getCharge*, pois el
  
 ##### Nessa parte estamos removendo o *Bad Smell* conhecido como *Switch Statements* referênciado nas páginas do livro base 82. 
 
-###### [Commit e Arquivo Relacionado]()
+###### [Commit e Arquivos Relacionados](https://github.com/hi-hi-ray/video-rental-refactoring/commit/5757e0345c190ff63c76e7ef7684e8d5ebb48c4c)
 
 
 

@@ -130,7 +130,16 @@ No livro é comentado que agora o proximo passo é criar uma herança na classe 
 
 No livro é comentado que agora o proximo passo é mover o *getCharge* para a classe *Price*, pois ela faria mais sentido esse método estar na classe citada.
 
-##### Na nossa décima refatoração, vamos mover para a classe *Price* o método *getCharge*. E mudamos o conteúdo do método *getCharge* em *Movie*
+##### Na nossa décima refatoração, vamos mover para a classe *Price* o método *getCharge*. E mudamos o conteúdo do método *getCharge* em *Movie*.
+
+###### [Commit e Arquivos Relacionados](https://github.com/hi-hi-ray/video-rental-refactoring/commit/754ba0ad971c4db060d24ae38231a0342814b358)
+
+
+#### Replace Conditional with Polymorphism 
+
+No livro é comentado que agora o proximo passo é desmantelar o *getCharge* e distribuir cada case nos filhos.
+
+##### Na nossa décima primeira refatoração, vamos destribuir o *getCharge* da classe *Price* e nos seus filhos. 
 
 ###### [Commit e Arquivos Relacionados]()
 
